@@ -1,5 +1,7 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <body>
-<h2>Hello Ty!</h2>
+<jsp:forward page="getCustomer"></jsp:forward>
+<%--<c:redirect url="hello" />--%>
 </body>
 </html>
